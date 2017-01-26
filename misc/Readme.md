@@ -1,2 +1,3 @@
 ## A directory for misellaneous stuff. 
-Nothing really relevant should be here!
+This directory contains files other than code and documentation
+

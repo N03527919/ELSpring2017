@@ -1,0 +1,67 @@
+Script started on Mon 06 Mar 2017 04:50:36 PM EST
+pi@raspberrypi: ~/Assignments/sqlite_py $ sqlite3
+SQLite version 3.8.7.1 2014-10-29 13:59:56
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open testTime.db
+sqlite> select * from testTime;
+2017/03/06|16:15:04
+2017/03/06|16:17:41
+2017/03/06|16:23:30
+2017/03/06|16:28:19
+2017/03/06|16:28:21
+2017/03/06|16:28:22
+2017/03/06|16:28:23
+2017/03/06|16:28:23
+2017/03/06|16:28:24
+2017/03/06|16:43:12
+sqlite> .exit
+pi@raspberrypi: ~/Assignments/sqlite_py $ logTime.py
+Date and Time logged
+pi@raspberrypi: ~/Assignments/sqlite_py $ sqlite3
+SQLite version 3.8.7.1 2014-10-29 13:59:56
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite> .open testTime.db
+sqlite> select * from testTime;
+2017/03/06|16:15:04
+2017/03/06|16:17:41
+2017/03/06|16:23:30
+2017/03/06|16:28:19
+2017/03/06|16:28:21
+2017/03/06|16:28:22
+2017/03/06|16:28:23
+2017/03/06|16:28:23
+2017/03/06|16:28:24
+2017/03/06|16:43:12
+2017/03/06|16:51:28
+sqlite> select date from testTime;
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+2017/03/06
+sqlite> select time from testTime;
+16:15:04
+16:17:41
+16:23:30
+16:28:19
+16:28:21
+16:28:22
+16:28:23
+16:28:23
+16:28:24
+16:43:12
+16:51:28
+sqlite> .exit
+pi@raspberrypi: ~/Assignments/sqlite_py $ exit
+
+Script done on Mon 06 Mar 2017 04:52:07 PM EST

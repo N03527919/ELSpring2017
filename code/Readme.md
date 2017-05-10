@@ -1,3 +1,4 @@
 # Code Directory. 
-This directory contains all of the code files.
+AssignCode directory contains misc assignment file code.
+ProjectCode directory contains code for the final project.
 

@@ -303,9 +303,32 @@ pi@raspberrypi:~$ which sqlite
 pi@raspberrypi:~$ which sqlite3
 /usr/bin/sqlite3
 pi@raspberrypi:~$ sudo apt-get install i[Ksqlite3
-Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
-Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... 98%Building dependency tree       
-Reading state information... 0%Reading state information... 0%Reading state information... Done
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 98%
+
+Building dependency tree       
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
 sqlite3 is already the newest version.
 0 upgraded, 0 newly installed, 0 to remove and 23 not upgraded.
 pi@raspberrypi:~$ which sqlite3
